@@ -12,9 +12,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-
-.split{
+.split {
     display: flex;
 }
 
@@ -22,6 +20,8 @@ h1 {
     font-size: 26px;
     font-weight: 500;
 }
+
+
 
 .info-content {
     margin: 0;
@@ -43,15 +43,13 @@ h1 {
     margin-left: 7px;
 }
 
-
-
 .save-btn {
     display: inline-flex;
     padding: 0;
     margin: 0;
 }
 
-.save-btn svg{
+.save-btn svg {
     margin-right: 4px;
 }
 
@@ -99,11 +97,11 @@ h1 {
     justify-content: space-between;
 }
 
-.pos{
+.pos {
     position: relative;
 }
 
-.pos1{
+.pos1 {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -134,7 +132,7 @@ ul::marker {
     object-fit: cover;
 }
 
-.image{
+.image {
     position: relative;
 }
 
@@ -190,25 +188,25 @@ hr {
     margin-bottom: 16px;
 }
 
-.padding-top-bottom a{
+.padding-top-bottom a {
     color: black;
 }
 
-.flex-display{
+.flex-display {
     display: flex;
     align-items: center;
 }
 
-.cards{
+.cards {
     display: flex;
     margin-top: 20px;
 }
 
-.second{
+.second {
     margin-left: 10px;
 }
 
-.first-card{
+.first-card {
     border: 1px solid rgb(221 221 221);
     padding: 24px;
     margin: 0.625;
@@ -217,36 +215,36 @@ hr {
     height: 100%;
 }
 
-.first-card svg{
+.first-card svg {
     margin-bottom: 16px;
 }
 
-.first-block{
+.first-block {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
     align-items: start;
-    
+
 }
 
-.flex-box{
+.flex-box {
     display: flex;
 }
 
-.flex-box h4{
+.flex-box h4 {
     font-size: 15px;
-    font-weight: 200!important;
+    font-weight: 200 !important;
 }
 
-.flex-box svg{
+.flex-box svg {
     margin-right: 10px;
 }
 
 
-.card{
+.card {
     width: 372px;
     height: 461px;
-    border: 0.4px solid rgba(221,221,221);
+    border: 0.4px solid rgba(221, 221, 221);
     border-radius: 20px;
     padding: 20px;
     margin-left: 80px;
@@ -256,55 +254,58 @@ hr {
     scroll-margin-top: 20px;
     box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
 }
-.pricing{
+
+.pricing {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
 
-.rating{
+.rating {
     display: flex;
     align-items: center;
 }
 
-.rating p{
+.rating p {
     font-size: 13px;
 }
-.rating svg{
+
+.rating svg {
     margin-right: 5px;
 }
 
-.rating a{
+.rating a {
     font-size: 13px;
 }
 
-.border{
+.border {
     border: 1px solid black;
     width: 100%;
     border-radius: 10px;
     margin-top: 20px;
 }
 
-.CHECK{
+.CHECK {
     display: flex;
     justify-content: space-evenly;
     font-size: 13px;
 
 }
 
-.checkin{
+.checkin {
     border-bottom: 1px solid black;
     width: 100%;
     padding: 10px 8px;
 }
-.CHECK-OT{
+
+.CHECK-OT {
     border-left: 1px solid black;
     border-bottom: 1px solid black;
     width: 100%;
     padding: 10px 8px;
 }
 
-.guest-booking{
+.guest-booking {
     padding: 10px 8px;
     font-size: 13px;
     display: flex;
@@ -312,15 +313,15 @@ hr {
     align-items: center;
 }
 
-.guest-booking svg{
+.guest-booking svg {
     padding: 10px 8px;
 }
 
-.space{
+.space {
     margin-top: 3rem;
 }
 
-.btn{
+.btn {
     background-color: #ff385c;
     border: none;
     width: 100%;
@@ -331,13 +332,13 @@ hr {
     cursor: pointer;
 }
 
-.align-center{
+.align-center {
     text-align: center;
     font-size: 13px;
     margin: 20px 0;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
@@ -345,19 +346,19 @@ hr {
     font-size: 15px;
 }
 
-.flex a{
+.flex a {
     color: black;
 }
 
-.small{
+.small {
     font-size: 13px;
 }
 
-.width1{
+.width1 {
     width: 280px;
 }
 
-.btnall{
+.btnall {
     padding: 20px;
     background-color: transparent;
     border: .5px solid gray;
@@ -366,6 +367,9 @@ hr {
     cursor: pointer;
 }
 
-.hr1{
+.hr1 {
     margin-top: 30px;
 }
+
+
+/* animation for css  */
