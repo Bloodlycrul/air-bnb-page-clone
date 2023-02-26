@@ -7,9 +7,59 @@
 
 body {
     margin: auto;
-    margin-top: 50px;
     width: 1120px;
     font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo svg{
+    color: #ff385c;
+}
+
+.serach{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.0625px solid lightgrey;
+    width: 300px;
+    height: 48px;
+    padding-left: 8px;
+    border-radius: 40px;
+}
+
+.search:hover{
+    box-shadow:  10px 10px 15px grey;
+}
+
+input:focus{
+    outline: transparent;
+}
+
+.serach input{
+    border: none;
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.search-icon{
+    background-color: #ff385c;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.mt1{
+    margin-top: 30px;
 }
 
 .split {
@@ -372,4 +422,104 @@ hr {
 }
 
 
-/* animation for css  */
+/* Media quries for mobile view  */
+
+/* @media screen and (max-width : 750px) {
+    h1{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .info-content {
+        margin: 0;
+        padding: 0;
+        color: black;
+        font-size: 8px;
+        font-weight: 500;
+        display: inline-flex;
+    }
+    
+    .info-content a {
+        color: black;
+        margin-left: 12px;
+    }
+    
+    .info-content p {
+        margin-left: 3px;
+    }
+
+    .save-btn {
+        padding: 0;
+        margin: 0;
+        display: inline-flex;
+        align-items: center;
+    }
+    
+    .save-btn svg {
+        margin-right: 4px;
+    }
+    
+    .save-btn a {
+        width: auto;
+    }
+
+    .images-section {
+        padding-top: 44px;
+        display: inline;
+    }
+
+    .left-image img {
+        width: 390px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .image-collage img {
+        width: 187px;
+    }
+
+    .split {
+        display: block;
+    }
+
+    .services-section {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        width: 300px;
+    }
+
+    .services-section p{
+        width: 380px;
+    }
+
+    .padding-top-bottom p{
+        width: 380px;
+    }
+
+    .cards{
+        display: block;
+    }
+
+    .margin{
+        margin-left: 10px;
+    }
+    
+    .first-card {
+        border: 1px solid rgb(221 221 221);
+        padding: 24px;
+        margin: 0.625;
+        border-radius: 12px;
+        width: 300px;
+    }
+    .second {
+        margin-left: none;
+        margin-top: 20px;
+    }
+
+
+    .details-section {
+        margin-top: 48px;
+        margin-bottom: 48px;
+        display: block;
+    }
+} */
