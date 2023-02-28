@@ -8,16 +8,19 @@
 body {
     margin: auto;
     font-family: 'Poppins', sans-serif;
-     width: 1120px;
+     
 }
 
 
 
 header{
+    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 10px 0;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1120px;
 }
 
 .logo svg{
@@ -96,7 +99,9 @@ input:focus{
 }
 
 .mt1{
+    margin: auto;
     margin-top: 30px;
+    width: 1120px;
 }
 
 .split {
@@ -456,6 +461,16 @@ hr {
 
 .hr1 {
     margin-top: 30px;
+}
+
+.calander-menu{
+    margin-top: 20px;
+}
+
+
+.calander-menu h1{
+    font-size: 18px;
+
 }
 
 
