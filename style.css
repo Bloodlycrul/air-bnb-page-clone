@@ -465,6 +465,12 @@ hr {
 
 .calander-menu{
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.calander-menu svg{
+    margin-right: 10px;
 }
 
 
@@ -473,105 +479,182 @@ hr {
 
 }
 
+.rangedisplay{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
 
-/* Media quries for mobile view  */
+.rangedisplay p{
+    font-weight: 200;
+}
 
-/* @media screen and (max-width : 750px) {
-    h1{
-        font-size: 15px;
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.rating1{
+    border: 2.5px solid rgb(34, 34, 34,1);
+    width: 152px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+.comment{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstcomment img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.firstcomment{
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    margin-left: 10px;
+}
+
+.name p{
+    font-size: 12px;
+    margin: 0!important;
+}
+
+.date{
+    font-weight: 200;
+    margin: 0!important;
+}
+
+.comment p{
+    width: 500px;
+    font-weight: 300;
+    margin: 25px 0;
+}
+
+
+
+@media(max-width:480px) {
+
+    body{
         margin-left: 10px;
     }
 
-    .info-content {
-        margin: 0;
-        padding: 0;
-        color: black;
-        font-size: 8px;
-        font-weight: 500;
-        display: inline-flex;
-    }
-    
-    .info-content a {
-        color: black;
-        margin-left: 12px;
-    }
-    
-    .info-content p {
-        margin-left: 3px;
+    /* Header part start from here */
+    header {
+        width: auto;
+        padding: 0 10px;
     }
 
-    .save-btn {
-        padding: 0;
-        margin: 0;
-        display: inline-flex;
-        align-items: center;
+    .serach{
+        width: 180px;
     }
-    
-    .save-btn svg {
-        margin-right: 4px;
+
+    .other-options {
+        display: none;
     }
-    
-    .save-btn a {
+
+    /* Header Ends Here */
+
+
+    /* Body Start from here */
+
+    .mt1 {
+        margin: auto;
+        margin-top: 30px;
+        width: auto;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .info-content {
+      display: none;    
+    }
+
+    /* Image Section start here */
+
+    .width {
         width: auto;
     }
 
     .images-section {
         padding-top: 44px;
-        display: inline;
+        display: block;
     }
 
     .left-image img {
-        width: 390px;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
+        width: 500px;
+        overflow: hidden;
     }
 
     .image-collage img {
-        width: 187px;
+        width: 180px;
+    }
+    
+    .remotewordcontent p {
+        width: 340px;
+    }
+
+    .padding-top-bottom p {
+        width: 340px;
+    }
+
+    .cards {
+        display: block;
+        margin-top: 20px;
+        width: auto;
+    }
+
+    .second {
+        margin-left: 0px;
+    }
+
+    .first-card {
+        border: 1px solid rgb(221 221 221);
+        border-radius: 12px;
+        width: 300px;
+    }
+
+    .first-block {
+        display: block;
+        justify-content: space-between;
+        padding-top: 20px;
+        align-items: start;
+    
+    }
+
+    .flex-box {
+        display: flex;
+        margin: 7px 0;
     }
 
     .split {
         display: block;
     }
 
-    .services-section {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        width: 300px;
-    }
 
-    .services-section p{
-        width: 380px;
+    .card {
+        width: 372px;
+        height: 461px;
+        border: 0.4px solid rgba(221, 221, 221);
+        border-radius: 20px;
+        margin-top: 30px;
+        box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
     }
-
-    .padding-top-bottom p{
-        width: 380px;
-    }
-
-    .cards{
-        display: block;
-    }
-
-    .margin{
-        margin-left: 10px;
-    }
-    
-    .first-card {
-        border: 1px solid rgb(221 221 221);
-        padding: 24px;
-        margin: 0.625;
-        border-radius: 12px;
-        width: 300px;
-    }
-    .second {
-        margin-left: none;
-        margin-top: 20px;
-    }
-
-
-    .details-section {
-        margin-top: 48px;
-        margin-bottom: 48px;
-        display: block;
-    }
-} */
+}
